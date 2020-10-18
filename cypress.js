@@ -1,4 +1,4 @@
-it('let me debug like a fiend', () => {
+it('should debug', () => {
   cy.visit('/my/page/path');
 
   cy.get('.selector-in-question');
